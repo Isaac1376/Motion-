@@ -1,15 +1,15 @@
 # Motion ✨
 
-A cinematic landing experience built with React, TypeScript, Vite, Tailwind CSS, and lucide-react. This project brings a geology-inspired hero section to life with a cursor-trailing spotlight that reveals a second image through a soft circular mask.
+Step into a bold, cinematic web experience where design meets motion. Motion is a polished landing page concept built with React, TypeScript, Vite, Tailwind CSS, and lucide-react, crafted to feel immersive, modern, and alive.
 
-## 🌋 What this project does
+## 🌌 What makes it special
 
-- Renders a full-screen, dark, immersive hero section
-- Uses a live cursor-following spotlight to reveal a layered second image
-- Includes elegant entrance animations and polished navigation styling
-- Designed to feel premium, modern, and story-driven
+- A full-screen dark hero section with a dramatic, premium feel
+- A cursor-following spotlight that reveals a second image through a soft glowing mask
+- Smooth entrance animations that bring the typography and content to life
+- A refined navigation bar and bold call-to-action designed for storytelling
 
-## 🧰 Tech stack
+## 🧱 Built with
 
 - React 18
 - TypeScript
@@ -25,26 +25,26 @@ npm install
 npm run dev
 ```
 
-Then open http://localhost:5173/ in your browser.
+Open http://localhost:5173/ to see the experience in your browser.
 
-## 🚀 Deploy to GitHub Pages
+## 🚀 Publish to GitHub Pages
 
 ```bash
 npm run build
 npm run deploy
 ```
 
-This publishes the contents of the dist folder to the gh-pages branch.
+This publishes the production build to the gh-pages branch so the site can be served by GitHub Pages.
 
-## 📦 Project structure
+## 📁 Project structure
 
-- src/App.tsx — main hero section and spotlight logic
-- src/index.css — global styles, fonts, and animation keyframes
-- vite.config.ts — Vite base path for GitHub Pages
+- src/App.tsx — hero layout, navigation, and spotlight interaction
+- src/index.css — fonts, global styling, and animation keyframes
+- vite.config.ts — base path configuration for hosted deployment
 
-## 🌟 Highlights
+## ✨ Highlights
 
-- Smooth spotlight motion with easing
 - Responsive layout for mobile and desktop
-- Reduced-motion support for accessibility
-- Ready for GitHub Pages publishing
+- Soft, elegant motion with reduced-motion support
+- Clean, story-driven visual direction
+- Ready for sharing and live deployment
