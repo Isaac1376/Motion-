@@ -1,32 +1,50 @@
-# React + TypeScript + Vite
+# Motion ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A cinematic landing experience built with React, TypeScript, Vite, Tailwind CSS, and lucide-react. This project brings a geology-inspired hero section to life with a cursor-trailing spotlight that reveals a second image through a soft circular mask.
 
-Currently, two official plugins are available:
+## 🌋 What this project does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Renders a full-screen, dark, immersive hero section
+- Uses a live cursor-following spotlight to reveal a layered second image
+- Includes elegant entrance animations and polished navigation styling
+- Designed to feel premium, modern, and story-driven
 
-## React Compiler
+## 🧰 Tech stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- lucide-react
+- gh-pages for deployment
 
-## Expanding the Oxlint configuration
+## ▶️ Run locally
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Then open http://localhost:5173/ in your browser.
+
+## 🚀 Deploy to GitHub Pages
+
+```bash
+npm run build
+npm run deploy
+```
+
+This publishes the contents of the dist folder to the gh-pages branch.
+
+## 📦 Project structure
+
+- src/App.tsx — main hero section and spotlight logic
+- src/index.css — global styles, fonts, and animation keyframes
+- vite.config.ts — Vite base path for GitHub Pages
+
+## 🌟 Highlights
+
+- Smooth spotlight motion with easing
+- Responsive layout for mobile and desktop
+- Reduced-motion support for accessibility
+- Ready for GitHub Pages publishing
