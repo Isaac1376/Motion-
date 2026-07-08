@@ -1,6 +1,8 @@
 # Motion ✨
 
 Step into a bold, cinematic web experience where design meets motion. Motion is a polished landing page concept built with React, TypeScript, Vite, Tailwind CSS, and lucide-react, crafted to feel immersive, modern, and alive.
+<img width="1900" height="862" alt="image" src="https://github.com/user-attachments/assets/40a0e7db-d2cf-4006-b97d-073cb2354d2b" />
+
 
 ## 🌌 What makes it special
 
